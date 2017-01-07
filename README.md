@@ -63,3 +63,18 @@ actions in our controller pipeline.
 * We defined relationships between User and Video schemas and used functions from Ecto to build and retrieve associated data.
 * You learned that Ecto uses strictly explicit semantics to determine if a
 relationship is loaded or not.
+
+# Chapter 7 : Ecto Queries and Constrains
+
+* We used Ecto’s query API, which is independent of the repository API, to
+do some basic queries.
+* We used two forms of queries, a keyword list–based syntax and a pipebased
+syntax.
+* We used fragments to pass SQL commands through the query API
+unchanged.
+* We explored the different ways Ecto queries work with relationships,
+beyond data preloading.
+* We wrote constraint-style validations for unique indexes and foreign-key
+violations.
+* We learned how to choose between letting constraint errors go and when
+to report them to the user.

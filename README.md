@@ -64,7 +64,7 @@ actions in our controller pipeline.
 * You learned that Ecto uses strictly explicit semantics to determine if a
 relationship is loaded or not.
 
-# Chapter 7 : Ecto Queries and Constrains
+## Chapter 7 : Ecto Queries and Constrains
 
 * We used Ecto’s query API, which is independent of the repository API, to
 do some basic queries.
@@ -78,3 +78,16 @@ beyond data preloading.
 violations.
 * We learned how to choose between letting constraint errors go and when
 to report them to the user.
+
+## Chapter 8 : Testing MVC
+
+* We examined how tests work in Phoenix.
+* We set up some basic testing functions to insert users and videos, and
+shared those across all of our potential test cases.
+* We wrote some basic integration tests, bypassing only our authentication
+plug.
+* We used Phoenix test helpers to make multiple assertions in a compact
+way.
+* We tested our authentication plug in isolation.
+* We tested our views.
+* We tested models with and without side effects.

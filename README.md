@@ -2,10 +2,10 @@
 
 To start:
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  * Install Node.js dependencies with `npm install`
-  * Start Phoenix endpoint with `mix phoenix.server`
+* Install dependencies with `mix deps.get`
+* Create and migrate your database with `mix ecto.create && mix ecto.migrate`
+* Install Node.js dependencies with `npm install`
+* Start Phoenix endpoint with `mix phoenix.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
@@ -99,3 +99,15 @@ minimization for production code.
 * We used generators to create an Ecto migration.
 * We used changesets to create slugs.
 * We used protocols to seamlessly build URLs from those new slugs.
+
+## Chapter 10 : Using Channels
+
+* Learned to connect to a server-side channel through an ES6 client.
+* Built a server-side channel with both long-polling and WebSocket
+support.
+* Built a simple API to let users join a channel.
+* Processed inbound messages from OTP with handle_info and channels
+with handle_in.
+* Sent broadcast messages with broadcast!.
+* Authenticated users with Phoenix.Token.
+* Persisted annotations with Ecto.

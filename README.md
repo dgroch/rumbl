@@ -91,3 +91,11 @@ way.
 * We tested our authentication plug in isolation.
 * We tested our views.
 * We tested models with and without side effects.
+
+## Chapter 9 : Watching Videos
+
+* You learned to use Brunch to support development-time reloading and
+minimization for production code.
+* We used generators to create an Ecto migration.
+* We used changesets to create slugs.
+* We used protocols to seamlessly build URLs from those new slugs.

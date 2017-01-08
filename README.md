@@ -111,3 +111,14 @@ with handle_in.
 * Sent broadcast messages with broadcast!.
 * Authenticated users with Phoenix.Token.
 * Persisted annotations with Ecto.
+
+## Chapter 11 : OTP
+
+* Built a counter that demonstrates how some OTP behaviors work.
+* Looked at several OTP supervision and restart strategies.
+* Looked at examples of a full OTP service as GenServer.
+* Learned how tasks wrap behavior and agents encapsulate state.
+* Implemented an information system abstract front end with concrete
+backends.
+* Learned to fetch WolframAlpha results from an HTTP service and
+share them with our channels.
